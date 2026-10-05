@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+airflow_venv/
+aiflow_venv/
+dbt_venv/
+venv/
+.venv/
+
+# Airflow
+logs/
+airflow/logs/
+
+# dbt generated files
+dbt_packages/
+dbt_train_delay/target/
+dbt_train_delay/logs/
+dbt_train_delay/.user.yml
+
+# Generated/processed data
+data/processed/
+
+# OS / editor
+.DS_Store
+.vscode/

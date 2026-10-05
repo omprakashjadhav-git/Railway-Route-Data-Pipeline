@@ -1,0 +1,21 @@
+SELECT
+    train_number,
+    train_name,
+    station_code,
+    station_name,
+    sequence,
+    arrival_time,
+    departure_time,
+    journey_day,
+    state,
+    zone,
+    latitude,
+    longitude,
+    next_station_code,
+    next_latitude,
+    next_longitude,
+    distance_km,
+    cumulative_distance_km,
+    total_route_distance_km,
+    remaining_distance_km
+FROM train_delay.train_routes_enriched
