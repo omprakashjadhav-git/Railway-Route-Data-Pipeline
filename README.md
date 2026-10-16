@@ -142,6 +142,12 @@ The main focus of this project is Data Engineering:
 * Data quality testing
 * Workflow orchestration
 
+## Apache Airflow Pipeline
+
+The pipeline is orchestrated using Apache Airflow with three tasks: Spark processing, dbt transformations, and dbt data quality tests.
+
+![Apache Airflow Pipeline](airflow-pipeline.png)
+
 ## Author
 
 **Omprakash Jadhav**
